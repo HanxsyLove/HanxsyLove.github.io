@@ -1,100 +1,100 @@
 <!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-	<title>Our Love Story</title>
-	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-	<style type="text/css">
-		@font-face {
-			font-family: digit;
-			src: url('digital-7_mono.ttf') format("truetype");
-		}
-	</style>
-	<link href="css/default.css" type="text/css" rel="stylesheet">
-	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/garden.js"></script>
+    <title>Our Love Story</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <style type="text/css">
+        @font-face {
+            font-family: digit;
+            src: url('digital-7_mono.ttf') format("truetype");
+        }
+    </style>
+    <link href="css/default.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/garden.js"></script>
     <script type="text/javascript" src="js/functions.js"></script>
 </head>
 
 <body>
 
-	<div id="mainDiv">
-		<div id="content">
+<div id="mainDiv">
+    <div id="content">
 
 
-				 <div id="div1" style="width:80px;height:80px;display:none;background-color:red;">
-		<img src="./IMG_0585.JPG" width="80px" height="80px"/>
-					 &
-		<img src="./IMG_0586.JPG" width="80px" height="80px"/>
-				 </div>
-			<div id="code">
-				<span class="comments">/**</span><br />
-				<span class="space"/><span class="comments">笑笑(๑>◡<๑) ~</span><br />
-				<span class="space"/><span class="comments">我喜欢你 ~</span><br />
-				<span class="space"/><span class="comments">像春天里在田野里奔跑的大熊！~</span><br />
-				<span class="space"/><span class="comments">把你扑倒~</span><br />
-<span class="space"/><span class="comments">行也思君，坐也思君</span><br />
-<span class="space"/><span class="comments">思君欲笑，笑亦思君</span><br />
-<span class="space"/><span class="comments">咩哈哈哈哈哈</span><br />
-<span class="space"/><span class="comments">生日快乐~</span><br />
-<span class="space"/><span class="comments">Muuuuuuuuua!~</span><br />
-				<img src="./IMG_0351.JPG" width="200px" height="200px"/>
-				<br/>
-				<img src="./IMG_0398.JPG" width="200px" height="200px"/>
-			</div>
-			<div id="loveHeart">
-				<canvas id="garden"></canvas>
-				<div id="words">
-					<div id="messages">
-						吾已与卿相识
-						<div id="elapseClock"></div>
-					</div>
-					<div id="loveu">
-						玲珑骰子安红豆<br/>
-						入骨相思知不知<br/>
-						<div class="signature">Xu&Xiao</div>
-					</div>
-				</div>
-			</div>
-		</div>
+        <div id="div1" style="width:80px;height:80px;display:none;background-color:red;">
+            <img src="./IMG_0585.JPG" width="80px" height="80px"/>
+            &
+            <img src="./IMG_0586.JPG" width="80px" height="80px"/>
+        </div>
+        <div id="code">
+            <span class="comments">/**</span><br/>
+            <span class="space"/><span class="comments">笑笑(๑>◡<๑) ~</span><br/>
+            <span class="space"/><span class="comments">我喜欢你 ~</span><br/>
+            <span class="space"/><span class="comments">像春天里在田野里奔跑的大熊！~</span><br/>
+            <span class="space"/><span class="comments">把你扑倒在厚厚的花丛里~</span><br/>
+            <span class="space"/><span class="comments">想和你两个人面对面坐着吃东西</span><br/>
+            <span class="space"/><span class="comments">两个饥肠辘辘的人xiliuxiliu的吃着东西</span><br/>
+            <span class="space"/><span class="comments">嘴塞的满满的，抬起头再喂对方一口满满的笑意</span><br/>
+            <span class="space"/><span class="comments">我吃饭又快，就可以空出很多时间看你</span><br/>
+            <span class="space"/><span class="comments">胃和心都无比满足~</span><br/>
+            <span class="space"/><span class="comments">Muuuuuuuuua!~</span><br/>
+            <img src="./IMG_0351.JPG" width="200px" height="200px"/>
+            <br/>
+            <img src="./IMG_0398.JPG" width="200px" height="200px"/>
+        </div>
+        <div id="loveHeart">
+            <canvas id="garden"></canvas>
+            <div id="words">
+                <div id="messages">
+                    吾已与卿相识
+                    <div id="elapseClock"></div>
+                </div>
+                <div id="loveu">
+                    玲珑骰子安红豆<br/>
+                    入骨相思知不知<br/>
+                    <div class="signature">Xu&Xiao</div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-	</div>
-	<script type="text/javascript">
+</div>
+<script type="text/javascript">
 
-		var offsetX = $("#loveHeart").width() / 2;
-		var offsetY = $("#loveHeart").height() / 2 - 55;
-		var together = new Date();
-		together.setFullYear(2017, 2, 19);
-		together.setHours(20);
-		together.setMinutes(0);
-		together.setSeconds(0);
-		together.setMilliseconds(0);
+    var offsetX = $("#loveHeart").width() / 2;
+    var offsetY = $("#loveHeart").height() / 2 - 55;
+    var together = new Date();
+    together.setFullYear(2017, 2, 19);
+    together.setHours(20);
+    together.setMinutes(0);
+    together.setSeconds(0);
+    together.setMilliseconds(0);
 
-		if (!document.createElement('canvas').getContext) {
-			var msg = document.createElement("div");
-			msg.id = "errorMsg";
-			msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+";
-			document.body.appendChild(msg);
-			$("#code").css("display", "none")
-			$("#copyright").css("position", "absolute");
-			$("#copyright").css("bottom", "10px");
-		    document.execCommand("stop");
-		} else {
-			setTimeout(function () {
-				startHeartAnimation();
-				$("#div1").fadeIn(1000);
-			}, 5000);
-
-
-			timeElapse(together);
-			setInterval(function () {
-				timeElapse(together);
-			}, 500);
+    if (!document.createElement('canvas').getContext) {
+        var msg = document.createElement("div");
+        msg.id = "errorMsg";
+        msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+";
+        document.body.appendChild(msg);
+        $("#code").css("display", "none")
+        $("#copyright").css("position", "absolute");
+        $("#copyright").css("bottom", "10px");
+        document.execCommand("stop");
+    } else {
+        setTimeout(function () {
+            startHeartAnimation();
+            $("#div1").fadeIn(1000);
+        }, 5000);
 
 
+        timeElapse(together);
+        setInterval(function () {
+            timeElapse(together);
+        }, 500);
 
-			adjustCodePosition();
-			$("#code").typewriter();
-		}
-	</script>
+
+        adjustCodePosition();
+        $("#code").typewriter();
+    }
+</script>
 </body>
 </html>
